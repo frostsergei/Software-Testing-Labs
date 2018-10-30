@@ -1,0 +1,523 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                13/Sep/2018  19:32:10
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Exe\8Bit.out
+#    Map file     =  
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\List\8Bit.map
+#    Command line =  
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\cmsis_os.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\croutine.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\event_groups.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\freertos.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\heap_4.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\LED_Lib.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\list.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\main.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\port.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\portasm.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\queue.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\startup_stm32f303xc.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_cortex.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_dma.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_flash.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_flash_ex.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_gpio.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_i2c.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_i2c_ex.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_msp.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_pwr.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_pwr_ex.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_rcc.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_rcc_ex.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_tim.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_tim_ex.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_hal_timebase_TIM.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\stm32f3xx_it.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\system_stm32f3xx.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\tasks.o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj\timers.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Exe\8Bit.out
+#        --map
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\List\8Bit.map
+#        --config
+#        D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM/stm32f303xc_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0803ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20009fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x188
+  .intvec            ro code  0x08000000   0x188  startup_stm32f303xc.o [1]
+                            - 0x08000188   0x188
+
+"P1":                                     0x2668
+  .text              ro code  0x08000188   0xac4  stm32f3xx_hal_rcc.o [1]
+  .text              ro code  0x08000c4c    0x3c  stm32f3xx_hal.o [1]
+  .text              ro code  0x08000c88    0x90  stm32f3xx_hal_timebase_TIM.o [1]
+  .text              ro code  0x08000d18   0x160  stm32f3xx_hal_cortex.o [1]
+  .text              ro code  0x08000e78    0x7c  stm32f3xx_hal_msp.o [1]
+  .text              ro code  0x08000ef4   0x2d0  stm32f3xx_hal_tim.o [1]
+  .text              ro code  0x080011c4   0x16a  main.o [1]
+  .text              ro code  0x08001330     0x6  stm32f3xx_hal_tim_ex.o [1]
+  .text              ro code  0x08001338    0x78  LED_Lib.o [1]
+  .text              ro code  0x080013b0    0x56  ABImemcpy_unaligned.o [5]
+  .text              ro code  0x08001408    0x76  cmsis_os.o [1]
+  .text              ro code  0x08001480   0x1f8  stm32f3xx_hal_gpio.o [1]
+  .text              ro code  0x08001678   0x7c8  tasks.o [1]
+  .text              ro code  0x08001e40   0x200  port.o [1]
+  .text              ro code  0x08002040   0x280  heap_4.o [1]
+  .text              ro code  0x080022c0    0x9e  list.o [1]
+  CODE               ro code  0x08002360    0xa8  portasm.o [1]
+  .text              ro code  0x08002408    0x98  system_stm32f3xx.o [1]
+  .text              ro code  0x080024a0    0x48  stm32f3xx_it.o [1]
+  .rodata            const    0x080024e8    0x40  main.o [1]
+  .text              ro code  0x08002528    0x40  zero_init3.o [5]
+  .text              ro code  0x08002568    0x2c  copy_init3.o [5]
+  .text              ro code  0x08002594    0x28  data_init.o [5]
+  Initializer bytes  const    0x080025bc    0x28  <for P2-1>
+  .text              ro code  0x080025e4    0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x08002608    0x24  - Linker created -
+  .text              ro code  0x0800262c    0x1a  cmain.o [5]
+  .text              ro code  0x08002646     0x4  low_level_init.o [3]
+  .text              ro code  0x0800264a     0x4  exit.o [3]
+  .text              ro code  0x08002650     0xa  cexit.o [5]
+  .text              ro code  0x0800265c    0x14  exit.o [6]
+  .rodata            const    0x08002670    0x14  main.o [1]
+  .rodata            const    0x08002684    0x10  stm32f3xx_hal_rcc.o [1]
+  .rodata            const    0x08002694    0x10  stm32f3xx_hal_rcc.o [1]
+  .rodata            const    0x080026a4    0x10  system_stm32f3xx.o [1]
+  .text              ro code  0x080026b4    0x10  startup_stm32f303xc.o [1]
+  .rodata            const    0x080026c4     0xc  main.o [1]
+  .text              ro code  0x080026d0     0xc  cstartup_M.o [5]
+  .rodata            const    0x080026dc     0x8  system_stm32f3xx.o [1]
+  .rodata            const    0x080026e4     0x8  tasks.o [1]
+  .rodata            const    0x080026ec     0x4  heap_4.o [1]
+  .text              ro code  0x080026f0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080026f4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080026f8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080026fc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002700     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002704     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002708     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800270c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002710     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002714     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002718     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800271c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002720     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002724     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002728     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800272c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002730     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002734     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002738     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800273c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002740     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002744     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002748     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800274c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002750     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002754     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002758     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800275c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002760     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002764     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002768     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800276c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002770     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002774     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002778     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800277c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002780     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002784     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002788     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800278c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002790     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002794     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002798     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800279c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027a0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027a4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027a8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027ac     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027b0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027b4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027b8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027bc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027c0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027c4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027c8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027cc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027d0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027d4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027d8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027dc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027e0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027e4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027e8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080027ec     0x4  startup_stm32f303xc.o [1]
+  .rodata            const    0x080027f0     0x0  zero_init3.o [5]
+  .rodata            const    0x080027f0     0x0  copy_init3.o [5]
+                            - 0x080027f0  0x2668
+
+"P2", part 1 of 3:                          0x28
+  P2-1                        0x20000000    0x28  <Init block>
+    .data            inited   0x20000000    0x20  LED_Lib.o [1]
+    .data            inited   0x20000020     0x4  port.o [1]
+    .data            inited   0x20000024     0x4  system_stm32f3xx.o [1]
+                            - 0x20000028    0x28
+
+"P2", part 2 of 3:                         0x400
+  CSTACK                      0x20000028   0x400  <Block>
+    CSTACK           uninit   0x20000028   0x400  <Block tail>
+                            - 0x20000428   0x400
+
+"P2", part 3 of 3:                         0xd98
+  .bss               zero     0x20000428   0xc00  heap_4.o [1]
+  .bss               zero     0x20001028    0x8c  tasks.o [1]
+  .bss               zero     0x200010b4    0x40  stm32f3xx_hal_timebase_TIM.o [1]
+  .bss               zero     0x200010f4    0x14  tasks.o [1]
+  .bss               zero     0x20001108    0x14  tasks.o [1]
+  .bss               zero     0x2000111c    0x14  tasks.o [1]
+  .bss               zero     0x20001130    0x14  tasks.o [1]
+  .bss               zero     0x20001144    0x14  tasks.o [1]
+  .bss               zero     0x20001158     0x8  heap_4.o [1]
+  .bss               zero     0x20001160     0x4  heap_4.o [1]
+  .bss               zero     0x20001164     0x4  heap_4.o [1]
+  .bss               zero     0x20001168     0x4  heap_4.o [1]
+  .bss               zero     0x2000116c     0x4  heap_4.o [1]
+  .bss               zero     0x20001170     0x4  main.o [1]
+  .bss               zero     0x20001174     0x4  main.o [1]
+  .bss               zero     0x20001178     0x4  port.o [1]
+  .bss               zero     0x2000117c     0x4  stm32f3xx_hal.o [1]
+  .bss               zero     0x20001180     0x4  tasks.o [1]
+  .bss               zero     0x20001184     0x4  tasks.o [1]
+  .bss               zero     0x20001188     0x4  tasks.o [1]
+  .bss               zero     0x2000118c     0x4  tasks.o [1]
+  .bss               zero     0x20001190     0x4  tasks.o [1]
+  .bss               zero     0x20001194     0x4  tasks.o [1]
+  .bss               zero     0x20001198     0x4  tasks.o [1]
+  .bss               zero     0x2000119c     0x4  tasks.o [1]
+  .bss               zero     0x200011a0     0x4  tasks.o [1]
+  .bss               zero     0x200011a4     0x4  tasks.o [1]
+  .bss               zero     0x200011a8     0x4  tasks.o [1]
+  .bss               zero     0x200011ac     0x4  tasks.o [1]
+  .bss               zero     0x200011b0     0x4  tasks.o [1]
+  .bss               zero     0x200011b4     0x4  tasks.o [1]
+  .bss               zero     0x200011b8     0x4  tasks.o [1]
+  .bss               zero     0x200011bc     0x1  port.o [1]
+                            - 0x200011bd   0xd95
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xd95:
+          0x20000428  0xd95
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x28:
+          0x080025bc   0x28
+    1 destination range, total size 0x28:
+          0x20000000   0x28
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                        ro code  ro data  rw data
+    ------                        -------  -------  -------
+D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj: [1]
+    LED_Lib.o                         120       32       32
+    cmsis_os.o                        118
+    heap_4.o                          640        4    3 096
+    list.o                            158
+    main.o                            362       96        8
+    port.o                            512        4        9
+    portasm.o                         168
+    startup_stm32f303xc.o             664
+    stm32f3xx_hal.o                    60                 4
+    stm32f3xx_hal_cortex.o            352
+    stm32f3xx_hal_gpio.o              504
+    stm32f3xx_hal_msp.o               124
+    stm32f3xx_hal_rcc.o             2 756       32
+    stm32f3xx_hal_tim.o               720
+    stm32f3xx_hal_tim_ex.o              6
+    stm32f3xx_hal_timebase_TIM.o      144                64
+    stm32f3xx_it.o                     72
+    system_stm32f3xx.o                152       28        4
+    tasks.o                         1 992        8      300
+    -------------------------------------------------------
+    Total:                          9 624      204    3 517
+
+command line: [2]
+    -------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                              4
+    low_level_init.o                    4
+    -------------------------------------------------------
+    Total:                              8
+
+m7M_tls.a: [4]
+    fpinit_M.o                         34
+    -------------------------------------------------------
+    Total:                             34
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o              86
+    cexit.o                            10
+    cmain.o                            26
+    copy_init3.o                       44
+    cstartup_M.o                       12
+    data_init.o                        40
+    zero_init3.o                       64
+    -------------------------------------------------------
+    Total:                            282
+
+shb_l.a: [6]
+    exit.o                             20
+    -------------------------------------------------------
+    Total:                             20
+
+    Gaps                               14        2
+    Linker created                              36    1 024
+-----------------------------------------------------------
+    Grand Total:                    9 982      242    4 541
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08002608          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800262c          --   Gb  - Linker created -
+?main                   0x0800262d         Code  Gb  cmain.o [5]
+AHBPrescTable           0x080026a4   0x10  Data  Gb  system_stm32f3xx.o [1]
+APBPrescTable           0x080026dc    0x8  Data  Gb  system_stm32f3xx.o [1]
+BusFault_Handler        0x080024a7    0x2  Code  Gb  stm32f3xx_it.o [1]
+CSTACK$$Base            0x20000028          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000428          --   Gb  - Linker created -
+DebugMon_Handler        0x080024ab    0x2  Code  Gb  stm32f3xx_it.o [1]
+EXTI0_IRQHandler        0x080024b5   0x22  Code  Gb  stm32f3xx_it.o [1]
+HAL_GPIO_Init           0x08001481  0x1be  Code  Gb  stm32f3xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x0800163f   0x12  Code  Gb  stm32f3xx_hal_gpio.o [1]
+HAL_GetTick             0x08000c7b    0x6  Code  Wk  stm32f3xx_hal.o [1]
+HAL_IncTick             0x08000c6f    0xc  Code  Wk  stm32f3xx_hal.o [1]
+HAL_Init                0x08000c4d   0x22  Code  Gb  stm32f3xx_hal.o [1]
+HAL_InitTick            0x08000c89   0x80  Code  Gb  stm32f3xx_hal_timebase_TIM.o [1]
+HAL_MspInit             0x08000e79   0x7c  Code  Gb  stm32f3xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ      0x08000e1b    0xe  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08000df5   0x26  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08000de9    0xc  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig     0x080008f5  0x23c  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_RCC_GetClockConfig  0x08000bcd   0x3a  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08000ba7    0x6  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x08000bad   0x20  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08000b31   0x76  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08000189  0x76c  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x08000e35   0x20  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x08000e29    0xc  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HAL_TIMEx_Break2Callback
+                        0x08001335    0x2  Code  Wk  stm32f3xx_hal_tim_ex.o [1]
+HAL_TIMEx_BreakCallback
+                        0x08001333    0x2  Code  Wk  stm32f3xx_hal_tim_ex.o [1]
+HAL_TIMEx_CommutationCallback
+                        0x08001331    0x2  Code  Wk  stm32f3xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init       0x08000ef5   0x38  Code  Gb  stm32f3xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit    0x08000f2d    0x2  Code  Wk  stm32f3xx_hal_tim.o [1]
+HAL_TIM_Base_Start_IT   0x08000f2f   0x1e  Code  Gb  stm32f3xx_hal_tim.o [1]
+HAL_TIM_IC_CaptureCallback
+                        0x080010e3    0x2  Code  Wk  stm32f3xx_hal_tim.o [1]
+HAL_TIM_IRQHandler      0x08000f4d  0x194  Code  Gb  stm32f3xx_hal_tim.o [1]
+HAL_TIM_OC_DelayElapsedCallback
+                        0x080010e1    0x2  Code  Wk  stm32f3xx_hal_tim.o [1]
+HAL_TIM_PWM_PulseFinishedCallback
+                        0x080010e5    0x2  Code  Wk  stm32f3xx_hal_tim.o [1]
+HAL_TIM_PeriodElapsedCallback
+                        0x080012fd   0x12  Code  Gb  main.o [1]
+HAL_TIM_TriggerCallback
+                        0x080010e7    0x2  Code  Wk  stm32f3xx_hal_tim.o [1]
+HardFault_Handler       0x080024a3    0x2  Code  Gb  stm32f3xx_it.o [1]
+MX_GPIO_Init            0x0800126d   0x84  Code  Lc  main.o [1]
+MemManage_Handler       0x080024a5    0x2  Code  Gb  stm32f3xx_it.o [1]
+NMI_Handler             0x080024a1    0x2  Code  Gb  stm32f3xx_it.o [1]
+NVIC_EnableIRQ          0x08000d41   0x14  Code  Lc  stm32f3xx_hal_cortex.o [1]
+NVIC_EncodePriority     0x08000d7b   0x3e  Code  Lc  stm32f3xx_hal_cortex.o [1]
+NVIC_GetPriorityGrouping
+                        0x08000d37    0xa  Code  Lc  stm32f3xx_hal_cortex.o [1]
+NVIC_SetPriority        0x08000d55   0x26  Code  Lc  stm32f3xx_hal_cortex.o [1]
+NVIC_SetPriorityGrouping
+                        0x08000d19   0x1e  Code  Lc  stm32f3xx_hal_cortex.o [1]
+PendSV_Handler          0x08002361         Code  Gb  portasm.o [1]
+Region$$Table$$Base     0x08002608          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800262c          --   Gb  - Linker created -
+SVC_Handler             0x080023b9         Code  Gb  portasm.o [1]
+StartDefaultTask        0x080012f1    0xc  Code  Gb  main.o [1]
+SysTick_Config          0x08000db9   0x30  Code  Lc  stm32f3xx_hal_cortex.o [1]
+SysTick_Handler         0x080024ad    0x8  Code  Gb  stm32f3xx_it.o [1]
+SystemClock_Config      0x080011f9   0x74  Code  Gb  main.o [1]
+SystemCoreClock         0x20000024    0x4  Data  Gb  system_stm32f3xx.o [1]
+SystemInit              0x08002409   0x70  Code  Gb  system_stm32f3xx.o [1]
+TIM1_UP_TIM16_IRQHandler
+                        0x080024d7    0xa  Code  Gb  stm32f3xx_it.o [1]
+TIM_Base_SetConfig      0x080010e9   0xbe  Code  Gb  stm32f3xx_hal_tim.o [1]
+UsageFault_Handler      0x080024a9    0x2  Code  Gb  stm32f3xx_it.o [1]
+_Error_Handler          0x0800132d    0x2  Code  Gb  main.o [1]
+__cmain                 0x0800262d         Code  Gb  cmain.o [5]
+__exit                  0x0800265d   0x14  Code  Gb  exit.o [6]
+__iar_copy_init3        0x08002569   0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08002595   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x080025e5         Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x080026d1         Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x080013b1         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x080013b1         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x08002529   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08002647    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f303xc.o [1]
+_call_main              0x08002639         Code  Gb  cmain.o [5]
+_exit                   0x08002651         Code  Gb  cexit.o [5]
+_main                   0x08002643         Code  Gb  cmain.o [5]
+aPLLMULFactorTable      0x08002684   0x10  Data  Gb  stm32f3xx_hal_rcc.o [1]
+aPredivFactorTable      0x08002694   0x10  Data  Gb  stm32f3xx_hal_rcc.o [1]
+defaultTaskHandle       0x20001170    0x4  Data  Gb  main.o [1]
+exit                    0x0800264b    0x4  Code  Gb  exit.o [3]
+htim1                   0x200010b4   0x40  Data  Gb  stm32f3xx_hal_timebase_TIM.o [1]
+main                    0x080011c5   0x34  Code  Gb  main.o [1]
+makeFreeRtosPriority    0x08001409   0x12  Code  Lc  cmsis_os.o [1]
+off                     0x20001174    0x4  Data  Gb  main.o [1]
+osDelay                 0x08001453   0x1c  Code  Gb  cmsis_os.o [1]
+osKernelStart           0x0800141b    0xa  Code  Gb  cmsis_os.o [1]
+osSystickHandler        0x0800146f   0x10  Code  Gb  cmsis_os.o [1]
+osThreadCreate          0x08001425   0x2e  Code  Gb  cmsis_os.o [1]
+outChar                 0x0800135d   0x4c  Code  Gb  LED_Lib.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x08001d7d   0x82  Code  Lc  tasks.o [1]
+prvAddNewTaskToReadyList
+                        0x080017c5   0xb8  Code  Lc  tasks.o [1]
+prvCheckTasksWaitingTermination
+                        0x08001c7d   0x66  Code  Lc  tasks.o [1]
+prvDeleteTCB            0x08001ce3   0x12  Code  Lc  tasks.o [1]
+prvHeapInit             0x080021d1   0x6e  Code  Lc  heap_4.o [1]
+prvIdleTask             0x08001bf9   0x24  Code  Lc  tasks.o [1]
+prvInitialiseNewTask    0x080016fd   0xc8  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x08001c21   0x54  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                        0x0800223f   0x62  Code  Lc  heap_4.o [1]
+prvResetNextTaskUnblockTime
+                        0x08001cf5   0x2e  Code  Lc  tasks.o [1]
+prvTaskExitError        0x08001e69   0x2a  Code  Lc  port.o [1]
+pvPortMalloc            0x08002041  0x118  Code  Gb  heap_4.o [1]
+pxCurrentTCB            0x20001180    0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x20001184    0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x20001160    0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x20001188    0x4  Data  Lc  tasks.o [1]
+pxPortInitialiseStack   0x08001e41   0x28  Code  Gb  port.o [1]
+pxReadyTasksLists       0x20001028   0x8c  Data  Lc  tasks.o [1]
+resetPin                0x0800134b   0x12  Code  Gb  LED_Lib.o [1]
+setPin                  0x08001339   0x12  Code  Gb  LED_Lib.o [1]
+ucHeap                  0x20000428  0xc00  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x200011bc    0x1  Data  Lc  port.o [1]
+ulMaxPRIGROUPValue      0x20001178    0x4  Data  Lc  port.o [1]
+uwTick                  0x2000117c    0x4  Data  Gb  stm32f3xx_hal.o [1]
+uxCriticalNesting       0x20000020    0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x20001190    0x4  Data  Lc  tasks.o [1]
+uxDeletedTasksWaitingCleanUp
+                        0x2000118c    0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x08002337   0x28  Code  Gb  list.o [1]
+uxPendedTicks           0x200011a0    0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x200011b8    0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x200011ac    0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x20001198    0x4  Data  Lc  tasks.o [1]
+vListInitialise         0x080022c1   0x1e  Code  Gb  list.o [1]
+vListInitialiseItem     0x080022df    0x6  Code  Gb  list.o [1]
+vListInsert             0x080022fd   0x3a  Code  Gb  list.o [1]
+vListInsertEnd          0x080022e5   0x18  Code  Gb  list.o [1]
+vPortEnableVFP          0x080023ed         Code  Gb  portasm.o [1]
+vPortEnterCritical      0x08001f5f   0x3a  Code  Gb  port.o [1]
+vPortExitCritical       0x08001f99   0x32  Code  Gb  port.o [1]
+vPortFree               0x08002159   0x78  Code  Gb  heap_4.o [1]
+vPortSetupTimerInterrupt
+                        0x08001ff3   0x1a  Code  Wk  port.o [1]
+vPortStartFirstTask     0x080023d5         Code  Gb  portasm.o [1]
+vTaskDelay              0x0800187d   0x4e  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x080018cb   0x68  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x08001933   0x10  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x08001b75   0x72  Code  Gb  tasks.o [1]
+word                    0x20000000   0x20  Data  Gb  LED_Lib.o [1]
+xBlockAllocatedBit      0x2000116c    0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x200010f4   0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x20001108   0x14  Data  Lc  tasks.o [1]
+xFreeBytesRemaining     0x20001164    0x4  Data  Lc  heap_4.o [1]
+xHeapStructSize         0x080026ec    0x4  Data  Lc  heap_4.o [1]
+xIdleTaskHandle         0x200011b4    0x4  Data  Lc  tasks.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x20001168    0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x200011b0    0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x200011a8    0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x2000111c   0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler     0x08001e93   0xcc  Code  Gb  port.o [1]
+xPortSysTickHandler     0x08001fcb   0x28  Code  Gb  port.o [1]
+xSchedulerRunning       0x2000119c    0x4  Data  Lc  tasks.o [1]
+xStart                  0x20001158    0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x20001144   0x14  Data  Lc  tasks.o [1]
+xTaskCreate             0x08001679   0x84  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x08001d29   0x26  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x08001a41  0x134  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x08001943   0xfe  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x20001130   0x14  Data  Lc  tasks.o [1]
+xTickCount              0x20001194    0x4  Data  Lc  tasks.o [1]
+xYieldPending           0x200011a4    0x4  Data  Lc  tasks.o [1]
+
+
+[1] = D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR4\8Bit\EWARM\8Bit\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  9 982 bytes of readonly  code memory
+    242 bytes of readonly  data memory
+  4 541 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,15 @@
+"D:\Program Files\IAR Workbench\arm\bin\armproc.dll" 
+
+"D:\Program Files\IAR Workbench\arm\bin\armstlink2.dll" 
+
+"D:\LETI_MAG\9_sem\SW_Testing\Labs\To_Test\LR6\My Mouse\EWARM\STM32F3_HID_MOUSE_LSM303DLHC\Exe\STM32F3_HID_MOUSE_LSM303DLHC.out" 
+
+--plugin "D:\Program Files\IAR Workbench\arm\bin\armbat.dll" 
+
+--device_macro "D:\Program Files\IAR Workbench\arm\config\debugger\ST\STM32F3xx.dmac" 
+
+--flash_loader "D:\Program Files\IAR Workbench\arm\config\flashloader\ST\FlashSTM32F3xxC.board" 
+
+
+
+
